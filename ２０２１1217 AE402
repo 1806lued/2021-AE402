@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Dec 17 19:04:51 2021
+
+@author: edwardlu
+"""
+
+import pygame
+
+block = (  0,  0,  0)
+white = (225,225,225)
+
+pygame.init()
+
+size = (700,500)
+screen = pygame.display.set_mode(size)
+pygame.display.set_caption("第１個遊戲")
+
