@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jan 22 09:48:32 2022
+
+@author: edwardlu
+"""
+
+class dog():
+    def __init__(self,name,weight,height,old):
+        self.name = name
+        self.weight = weight
+        self.height = height
+        self.old = old
+        
+    def bmi(self):
+        b = self.weight/self.height/self.height
+        return b
+              
+    dog = dog1('Toby.Lu',30,60,10)
+
+print(dog.name)
+print(dog.weight)
+print(dog.height)
+print(dog.old)
+
+print("bmi:")
+
+print(dog.bmi())
